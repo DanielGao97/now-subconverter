@@ -19,8 +19,8 @@ on:
   # 定时任务，格式：minute(0 - 59) hour(0 - 23) day_of_the month (1 - 31) month(1 - 12 or JAN-DEC) day of the week (0 - 6 or SUN-SAT)
   # 以下示例为每周日0点0分运行
   # 删除以下行首的#号启用定时任务
-  # schedule:
-  #   - cron: 0 0 * * SUN
+   schedule:
+     - cron: 0 0 * * SUN
   # 点击star运行
   # 删除以下行首的#号启用
   #watch:
